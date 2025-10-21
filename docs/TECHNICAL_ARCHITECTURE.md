@@ -1,6 +1,6 @@
 # KrishiRakshak - Technical Architecture
 
-## 🏗️ System Overview
+## System Overview
 
 KrishiRakshak implements a distributed edge intelligence architecture optimized for agricultural monitoring. The system combines multi-modal sensing with MVP-accelerated machine learning to deliver real-time insights without cloud dependency.
 
@@ -46,7 +46,7 @@ KrishiRakshak implements a distributed edge intelligence architecture optimized 
 │  └─────────────────────────────────────────────────────────┘
 ```
 
-## 🧠 Machine Learning Architecture
+## Machine Learning Architecture
 
 ### Model Specifications
 ```python
@@ -82,7 +82,7 @@ Non-trainable params: 0
 - **Class 1:** Water Stress (Irrigation alert)
 - **Class 2:** Pest Risk (Inspection recommended)
 
-## ⚡ MVP Acceleration Implementation
+##  MVP Acceleration Implementation
 
 ### CMSIS-NN Integration
 ```c
@@ -111,7 +111,7 @@ void run_inference(const int8_t* input_data, int8_t* output_data) {
 - **Batch Processing:** Parallel operations across multiple data points
 - **Memory Management:** Efficient buffer allocation for intermediate tensors
 
-## 📡 Wireless Communication Protocol
+##  Wireless Communication Protocol
 
 ### Alert Message Format
 ```json
@@ -147,7 +147,7 @@ POWER CONSUMPTION:
 • Average Power: <5mW (with 1 alert/hour)
 ```
 
-## 🔄 Data Processing Pipeline
+##  Data Processing Pipeline
 
 ### Step 1: Sensor Data Acquisition
 ```c
@@ -207,7 +207,7 @@ void process_ml_output(int prediction, float confidence) {
 }
 ```
 
-## 🛡️ Reliability & Fault Tolerance
+##  Reliability & Fault Tolerance
 
 ### Error Handling
 - **Sensor Failures:** Default values with confidence reduction
@@ -225,7 +225,7 @@ int validate_sensor_data(const SensorData* data) {
 }
 ```
 
-## 📊 Performance Benchmarks
+##  Performance Benchmarks
 
 ### Resource Utilization
 | Resource | Usage | Capacity | Utilization |
