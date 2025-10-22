@@ -103,7 +103,7 @@ KrishiRakshak-EdgeAI-SmartAgri/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/KrishiRakshak.git
+   git clone https://github.com/Abhishekvlsi/KrishiRakshak.git
    cd KrishiRakshak-EdgeAI-SmartAgri
    ```
 
